@@ -1,5 +1,5 @@
 # Face-Recognition
-A face recognition system for airport security purposes
+#A face recognition system for airport security purposes
 İlk olarak embedding.py dosyası çalıştırılır ve insightfacein yüz analizi modeli fotoğrafların embeddingini çıkardıktan sonra oluşturulan embeddingler pkl uzantılı dosyaya kaydedilir. Bu dosyaya kaydedilen fotoğraflar kullanılan FAISS kütüphanesi ile vekötörlere çevrilerek faissin kendine özel databaseinde tutulur ve id numarasına göre index verilerek kaydedilir. Fotoğrafın meta datası ise ayrı bir pkl uzantılı dosyada tutularak iki veri ayrı yerlerde tutulur.En sonda bu iki bilgiyi beraber tutması için databasede tablo oluşturulur ve bilgiler oraya aktarılır.
 
 api.py dosyası çalıştırılır ve databasede yapılmak istenen kullanıcı ekleme, silme, döndürme, bilgilendirme gibi requestler buradan gönderilir.
