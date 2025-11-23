@@ -10,8 +10,8 @@ import random
 # PostgreSQL bağlantısı
 DB_CONFIG = {
     "dbname": "fastapi",
-    "user": "postgres",
-    "password": "h12345jklj",
+    "user": "userid",
+    "password": "yourpassword",
     "host": "localhost",
     "port": "5432"
 }
